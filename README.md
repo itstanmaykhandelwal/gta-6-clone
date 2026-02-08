@@ -1,127 +1,100 @@
-<div align="center">
-  <br />
-    <a href="" target="_blank">
-      <img src="public/readme/hero.png" alt="Project Banner">
-    </a>
-  <br />
-  
-   <div>
-    <img src="https://img.shields.io/badge/-React-blue?style=for-the-badge&logo=react&logoColor=white" />
-    <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
-  </div>
+🔥 GTA VI Inspired Animated Website
+<div align="center"> <img src="public/readme/hero.png" alt="GTA VI Inspired Website Banner" /> </div>
 
-  <h3 align="center">GTA VI Website w/ GSAP</h3>
+A modern, scroll-driven animated website inspired by the GTA VI reveal experience.
+Built using React, GSAP, and Tailwind CSS to create cinematic animations, smooth scroll interactions, and immersive visuals.
 
-   <div align="center">
-     Build this project step by step with our detailed tutorial on <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a> YouTube. Join the JSM family!
-    </div>
-</div>
+📌 Table of Contents
 
-## 📋 <a name="table">Table of Contents</a>
+Introduction
 
-1. 🤖 [Introduction](#introduction)
-2. ⚙️ [Tech Stack](#tech-stack)
-3. 🔋 [Features](#features)
-4. 🤸 [Quick Start](#quick-start)
-5. 🔗 [Assets](#links)
-6. 🚀 [More](#more)
+Tech Stack
 
-## 🚨 Tutorial
+Features
 
-This repository contains the code corresponding to an in-depth **GSAP Course** available on <a href="https://jsmastery.com/" target="_blank"><b>jsmastery.com</b></a>.
+Getting Started
 
-<!-- If you prefer visual learning, this is the perfect resource for you. Follow our tutorial to learn how to build projects like these step-by-step in a beginner-friendly manner!
+Project Assets
 
-<a href="https://www.youtube.com/watch?v=dCLhUialKPQ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a> -->
+Future Improvements
 
-## <a name="introduction">🤖 Introduction</a>
+🚀 Introduction
 
-Recreate the viral GTA VI website with React, Tailwind CSS, and GSAP. Build and deploy a scroll-driven experience packed with cinematic animations using GSAP’s ScrollTrigger. Pin sections in place, sync video playback with scroll, and add smooth parallax and image masking effects. A modern, responsive site that brings high-impact motion design to life on the web.
+This project recreates a high-impact, animation-heavy landing page inspired by the GTA VI website experience.
+The focus is on scroll-based storytelling, cinematic motion, and smooth UI transitions using GSAP.
 
-If you're getting started and need assistance or face any bugs, join our active Discord community with over **50k+** members. It's a place where people help each other out.
+The goal of this project was to:
 
-<a href="https://discord.com/invite/n6EdbFJ" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/618f4872-1e10-42da-8213-1d69e486d02e" /></a>
+Practice advanced GSAP animations
 
-## <a name="tech-stack">⚙️ Tech Stack</a>
+Learn ScrollTrigger-based timelines
 
-- **[GSAP](https://gsap.com/)** is a powerful JavaScript animation library used in this project to create dynamic, scroll-driven visuals. Features include SplitText animations for bold text reveals, ScrollTrigger for timeline control, parallax scrolling, pinned sections, scroll-synced video playback, seamless multi-section timelines, image masking effects, and a fully custom animated carousel.
+Build a production-ready animated React UI
 
-- **[React](https://react.dev/)** is a declarative JavaScript library for building interactive UIs. It provides the component structure for modular development, allowing smooth integration of GSAP animations, reusable logic for scroll behavior, and support for responsive layout and state-driven UI features like carousels and video sections.
+⚙️ Tech Stack
 
-- **[Tailwind CSS](https://tailwindcss.com/)** is a utility-first CSS framework that allows developers to design custom user interfaces by applying low-level utility classes directly in HTML, streamlining the design process.
+React – Component-based UI development and state handling
 
-- **[Vite](https://vitejs.dev/)** is a lightning-fast build tool and development server that powers this project’s workflow. It enables instant hot module replacement, fast startup, and optimized production builds—ideal for an animation-heavy React site with smooth, real-time development feedback and minimal config.
+GSAP – ScrollTrigger animations, timelines, text reveals, parallax effects
 
+Tailwind CSS – Utility-first styling for responsive layouts
 
-## <a name="features">🔋 Features</a>
+Vite – Fast development server and optimized builds
 
-👉 **SplitText Animations**: Create impactful text reveals using GSAP’s SplitText for dynamic intros and section highlights.
+✨ Features
 
-👉 **ScrollTrigger Effects**: Power scroll-based animations and timeline control with GSAP’s ScrollTrigger.
+🎬 Scroll-Driven Animations using GSAP ScrollTrigger
 
-👉 **Parallax Scrolling**: Add immersive depth with smooth parallax effects that respond to user scroll.
+🧩 Pinned Sections for immersive storytelling
 
-👉 **Pinned Sections**: Lock sections in view while animating content for engaging scroll experiences.
+🎥 Scroll-Synced Video Playback
 
-👉 **Scroll-Synced Video Playback**: Sync video progress with scroll position for cinematic storytelling.
+🌊 Parallax Effects for depth and motion
 
-👉 **Seamless Timeline Animations**: Craft smooth animation timelines that span across multiple sections.
+🖋️ Animated Text Reveals
 
-👉 **Responsive Design**: Ensure fluid UI and adaptive GSAP animations across all screen sizes.
+📱 Fully Responsive Design
 
-And many more, including enhanced security and optimized video performance!
+⚡ Optimized Performance for animation-heavy UI
 
-## <a name="quick-start">🤸 Quick Start</a>
+🛠️ Getting Started
 
-Follow these steps to set up the project locally on your machine.
+Follow these steps to run the project locally.
 
-**Prerequisites**
+Prerequisites
 
-Make sure you have the following installed on your machine:
+Make sure you have installed:
 
-- [Git](https://git-scm.com/)
-- [Node.js](https://nodejs.org/en)
-- [npm](https://www.npmjs.com/) (Node Package Manager)
+Node.js
 
-**Cloning the Repository**
+npm or yarn
 
-```bash
-git clone https://github.com/adrianhajdin/jsm_gta_vi_landing.git
-cd jsm_gta_vi_landing
-```
+Git
 
-**Installation**
+Clone the Repository
+git clone https://github.com/your-username/gta-vi-animated-website.git
+cd gta-vi-animated-website
 
-Install the project dependencies using npm:
-
-```bash
+Install Dependencies
 npm install
-```
 
-**Running the Project**
-
-```bash
+Run the Project
 npm run dev
-```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
 
-## <a name="links">🔗 Assets</a>
+Open http://localhost:5173 in your browser.
 
-Assets and snippets used in the project can be found in the **[video kit](https://jsmastery.com/video-kit/55ee213c-02df-43a0-9857-79f9a823b50c)**.
+🔗 Project Assets
 
-<a href="https://jsmastery.com/video-kit/55ee213c-02df-43a0-9857-79f9a823b50c" target="_blank">
-  <img src="public/readme/videokit.png" alt="Video Kit Banner">
-</a>
+All media assets (videos, images, fonts) are stored inside the public directory.
+Animations and scroll logic are implemented using GSAP timelines and reusable hooks.
 
-## <a name="more">🚀 More</a>
+🚧 Future Improvements
 
-**Advance your skills with our GSAP Pro Course!**
+Add mobile-specific animation optimizations
 
-Enjoyed creating this project? Dive deeper into our PRO courses for a richer learning adventure. They're packed with
-detailed explanations, cool features, and exercises to boost your skills. Give it a go!
+Improve accessibility (reduced motion support)
 
-<a href="https://jsmastery.com" target="_blank">
-  <img src="public/readme/jsmpro.png" alt="Project Banner">
-</a>
+Enhance loading performance for videos
+
+Add reusable animation utilities
